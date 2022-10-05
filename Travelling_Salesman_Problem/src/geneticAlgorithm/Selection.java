@@ -51,8 +51,6 @@ public class Selection {
         return  mother;
     }
 
-
-
     public static double getSumFitness(Individual [] population) {
         double sum = 0;
         for (Individual individual : population) {
